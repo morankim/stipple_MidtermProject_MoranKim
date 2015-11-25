@@ -1,0 +1,21 @@
+﻿Build started 2015-11-21 오후 12:11:18.
+     1>Project "C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\hedcut.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\moran kim\opencv\build\include" /I../mathtool /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\wcvt_gpu.cpp
+         wcvt_gpu.cpp
+     1>c:\users\moran kim\desktop\cs lectures\advanced algorithm2 2015.2nd\stipple\stipple\hedcuter\code\wcvt.h(100): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\wcvt_gpu.cpp(23): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\wcvt_gpu.cpp(39): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\wcvt_gpu.cpp(53): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\wcvt_gpu.cpp(87): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\x64\Debug\hedcut.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\moran kim\opencv\build\x64\vc12\lib" opencv_highgui2410d.lib opencv_core2410d.lib opencv_imgproc2410d.lib opencv_flann2410d.lib opencv_contrib2410d.lib opencv_features2d2410d.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\x64\Debug\hedcut.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\x64\Debug\hedcut.lib" /MACHINE:X64 x64\Debug\hedcut.obj
+         x64\Debug\main.obj
+         x64\Debug\wcvt.obj
+         x64\Debug\wcvt_gpu.obj
+         hedcut.vcxproj -> C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\x64\Debug\hedcut.exe
+     1>Done Building Project "C:\Users\moran kim\Desktop\cs lectures\Advanced Algorithm2 2015.2nd\stipple\stipple\hedcuter\code\vc_files\hedcut.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51
